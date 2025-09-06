@@ -14,7 +14,6 @@ It supports off days, maximum daily appointments, and automatically shifts exces
 - Swagger for API documentation.
 - Ready for Dependency Injection (DI/IoC).
 - Unit Tests with xUnit + Moq.
-- Deployable to Azure App Service.
 - GitHub for source control & collaboration.
 
 ⚙️ **Setup Instructions**
