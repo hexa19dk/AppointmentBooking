@@ -28,6 +28,7 @@ namespace AgencyBookAppointments.Controllers
             }
             catch (ArgumentException ex)
             {
+                _logger.LogWarning(ex.Message, "Validation error when creating customer");
                 var response = new ApiResponse<string>
                 {
                     Success = false,
